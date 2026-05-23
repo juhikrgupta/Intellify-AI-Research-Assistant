@@ -56,6 +56,26 @@ The frontend simulates streaming by progressively rendering text character-by-ch
 - Streaming UI
 
 ---
+## Screenshots
+
+### Home Page
+![Home](./public/screenshots/homepage.png)
+
+### Research Report
+![Research](./public/screenshots/report1.png)
+
+### Research Continuation
+![Research2](./public/screenshots/report2.png)
+
+### Follow-up Chat
+![Followup](./public/screenshots/followup.png)
+
+### Research History
+![History](./public/screenshots/history.png)
+
+### Sources
+![Sources](./public/screenshots/sources.png)
+
 
 ## Setup Instructions
 
