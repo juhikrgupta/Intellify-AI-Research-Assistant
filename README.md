@@ -59,7 +59,7 @@ The frontend simulates streaming by progressively rendering text character-by-ch
 ## Screenshots
 
 ### Home Page
-![Home](./public/screenshots/homepage.png)
+![Home](./public/screenshots/home.png)
 
 ### Research Report
 ![Research](./public/screenshots/report1.png)
