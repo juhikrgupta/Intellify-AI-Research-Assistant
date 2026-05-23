@@ -35,8 +35,11 @@ User Query → Tavily Search API → Retrieved Sources → OpenRouter LLM → St
 
 ## Hallucination Prevention
 
-The assistant generates grounded responses strictly from retrieved sources. The prompt explicitly instructs the LLM to avoid unsupported claims.
-
+- Responses are grounded strictly on retrieved sources
+- Inline citations are attached to generated claims
+- Follow-up chat uses previous retrieved context
+- No unsupported claims are intentionally generated
+- Multiple sources are used to improve reliability
 ---
 
 ## Streaming Implementation
@@ -76,7 +79,9 @@ The frontend simulates streaming by progressively rendering text character-by-ch
 ### Sources
 ![Sources](./public/screenshots/sources.png)
 
+## Live Demo
 
+🔗 Vercel Deployment: https://vercel.com/juhikrguptas-projects/intellify-ai-research-assistant/5PSvvRnhK4XBPGFLmCTzM8AAMpNc
 ## Setup Instructions
 
 ```bash
